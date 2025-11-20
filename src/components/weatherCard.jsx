@@ -22,7 +22,7 @@ function WeatherCard({ weatherData }) {
       <h1>
         <i className="bi bi-globe2"></i> {weatherData?.name}
       </h1>
-      <p>{dayjs(weatherData?.dt * 1000).format(`MMMM D YYYY \n h:mm A`)}</p>
+      <p>{dayjs(weatherData?.dt * 1000).format(`MMMM D YYYY, \n h:mm A`)}</p>
       <h2>
         {temp} {weatherData?.main?.temp}°C
       </h2>

@@ -10,3 +10,8 @@
   font-weight: bold;
   text-align: center;
 }
+@media (max-width: 600px) {
+    .detailsBody p{
+        font-size: 1.2em;
+    }
+}
