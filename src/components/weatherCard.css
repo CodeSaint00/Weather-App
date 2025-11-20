@@ -1,0 +1,18 @@
+.cardBody {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  box-shadow: none;
+}
+.cardBody .pressureHumidity{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+i{
+    color: #000;
+}

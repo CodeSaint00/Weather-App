@@ -1,0 +1,12 @@
+.detailsBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detailsBody p {
+  font-size: 3em;
+  color: whitesmoke;
+  width: 50%;
+  font-weight: bold;
+  text-align: center;
+}
