@@ -28,9 +28,9 @@
     }
     .searchBar .button{
         right: 1em;
-        font-size: 1.5em;
+        font-size: 1em;
     }
     .searchBar input{
-        font-size: 1.6em;
+        font-size: 1.2em;
     }
 }
