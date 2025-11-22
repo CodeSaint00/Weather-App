@@ -21,16 +21,16 @@
     position: absolute;
     right: 4em;
 }
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     .searchBar input{
         width: 60vw;
-        height: 8vh;
+        height: 4vh;
     }
     .searchBar .button{
         right: 1em;
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
     .searchBar input{
-        font-size: 0.8em;
+        font-size: 1.6em;
     }
 }

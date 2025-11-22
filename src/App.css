@@ -34,10 +34,12 @@
     transform: rotate(360deg);
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .body {
-    width: 70%;
-    gap: 4em;
+    width: 80%;
+    height: 50%;
+    place-self: center;
+    gap: 2em;
   }
   .secondSection {
     display: flex;
